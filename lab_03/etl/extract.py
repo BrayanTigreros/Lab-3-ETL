@@ -17,6 +17,6 @@ def extract_products_data(path):
 
 # Extract data from sales data csv
 def extract_sales_data(path):
-    df_sales = pd.read_csv(path)
+    df_sales = pd.read_csv(path, sep=';')
     return df_sales
 
